@@ -1,3 +1,1 @@
-def main():
-    """Entry point for the application script"""
-    print("Call your main application code here")
+__path__ = __import__('pkgutil').extend_path(__path__, __name__)
