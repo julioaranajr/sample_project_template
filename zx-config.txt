@@ -1,1 +1,0 @@
-pyproject config --author="Julio Arana" --email="devops@julioaranajr.com" --github_url="https://github.com/julioaranajr/sample_project_template" --pypi_username="__token__" --pypi_password="pypi-AgENdGVzdC5weXBpLm9yZwIkMWVlZjA5YmItNjA1MS00MjBhLWE2NGItOWIzYzE5MTE4NzRhAAIqWzMsImFkNTFkNzE0LWFmOGItNDkxNC04OGIwLTc5ZWU3OTllZTViMiJdAAAGIMU3v5rcNZJPHEspxDvz-dfhINqdzI2jZHsr_mx-G3-5"
