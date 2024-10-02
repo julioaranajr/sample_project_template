@@ -14,14 +14,13 @@ Returns:
     str: A random sentence from the Zen of GitHub.
 """
 
-from __future__ import annotations
-
 import requests
 
-STATUS_CODE = 200
+
+STATUS_OK = 200
 
 
-def get_zen_api() -> str:
+def get_zen_success() -> str:
     """Get a random sentence from the Zen of GitHub."""
     url = "https://api.github.com/zen"
     headers = {
@@ -29,6 +28,6 @@ def get_zen_api() -> str:
         "X-GitHub-Api-Version": "2022-11-28",
     }
     response = requests.get(url, headers=headers, timeout=5)
-    if response.status_code == STATUS_CODE:
+    if response.status_code == STATUS_OK:
         return response.text
     return "Failed to get a Zen of GitHub."
